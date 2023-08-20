@@ -16,12 +16,20 @@ import ButtonComponent from './components/ButtonComponent.vue';
     display:flex;
     flex-direction: column;
     gap:43px;
-    padding:18px
+    padding:18px;
+    max-width:800px;
+    width: 100%;
+    justify-content: center;
+    margin:0 auto;
+    padding-bottom: 92px;
 
 }
 .button{
     display: flex;
     justify-content: center;
-    
+    max-width:198px;
+    margin:0 auto;
+    background-color:black;
+    color:white
 }
 </style>

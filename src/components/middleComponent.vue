@@ -14,7 +14,7 @@ import reversedArrowComponent from './reversedArrowComponent.vue'
         <div class="arrow-part">
             <arrowComponentVue img="src/assets/imgss/arrow 4.png" url="src/assets/imgss/sec.png"/>
         </div>
-       <div class="white"><cardComponent  url="src/assets/imgss/vector.png" img="src/assets/imgss/cancel.png" text="Find Trend-Elon Musk" class="card2"/>
+       <div class="white"><cardComponent  url="src/assets/imgss/vector.png" img="src/assets/imgss/cancel.png" text="Findtrend-Elo" class="card2"/>
        </div> 
        <div class="arrow-part2">
             <reversedArrowComponent img="src/assets/imgss/arrow 6.png" url="src/assets/imgss/solution.svg"/>
@@ -39,7 +39,7 @@ import reversedArrowComponent from './reversedArrowComponent.vue'
 .open h2{
     color: #000;
 text-align: center;
-font-family: Effra;
+font-family:'inter';
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -50,7 +50,7 @@ line-height: 112%;
     border-radius: 16px;
 background: #F5F5F5;
 max-width:502px ;
-width: 339px;
+width: 100%;
 max-height: 202px;
 height: 118px;
 display: flex;
@@ -60,7 +60,8 @@ align-items: center;
 .card2{
 background-color: #030303;
 display: flex;
-justify-content: center;
+max-width: 342px;
+width: 100%;
 
 }
 .middle p{
@@ -68,7 +69,7 @@ justify-content: center;
     width:100%;
     color: #000;
 text-align: center;
-font-family: Effra;
+font-family: 'inter';
 font-size: 14px;
 
 font-style: normal;
@@ -90,7 +91,7 @@ line-height: 150%;
     .open h2{
         color: #000;
 text-align: center;
-font-family: Effra;
+font-family: 'inter';
 font-size: 72px;
 font-style: normal;
 font-weight: 700;
@@ -108,7 +109,7 @@ line-height: normal;
     width:100%;
     color: #000;
 text-align: center;
-font-family: Effra;
+font-family:'inter';
 font-size: 18px;
 
 font-style: normal;

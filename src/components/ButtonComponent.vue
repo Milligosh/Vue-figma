@@ -3,9 +3,9 @@ defineProps(['buttonText'])
 </script>
 
 <template>
-    <div>
+    
         <button>{{ buttonText }}</button>
-    </div>
+    
 </template>
 
 <style scoped>
@@ -15,5 +15,6 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 border-radius: 40px;
+border:none;
 }
 </style>

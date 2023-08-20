@@ -29,12 +29,7 @@ import ButtonComponent from './ButtonComponent.vue'
 </template>
 
 <style scoped>
-*{
-    margin:0px;
-    padding:0px;
-    box-sizing: border-box;
-    color:white
-}
+
 
 header{
     display:flex;
@@ -109,6 +104,7 @@ line-height: 100%
 .button{
  display:block;
  display: inline-flex;
+ 
 
 }
 }

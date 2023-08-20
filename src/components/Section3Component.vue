@@ -24,7 +24,7 @@ padding:80px 22px, 80px,18px;
 }
 span{
     color: #ADADAD;
-font-family: Effra;
+font-family: 'inter';
 font-size: 36px;
 font-style: normal;
 font-weight: 900;
@@ -41,7 +41,7 @@ align-items: center;
 }
 .section h1{
     color: #000;
-font-family: Effra;
+font-family:'inter';
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -49,7 +49,24 @@ line-height: normal;
 }
 
 @media screen and (min-width:1200px) {
-
-    
+.section3{
+    padding:140px 140px
+}
+    .section h1{
+    color: #000;
+font-family: 'inter';
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+   span{
+    color: #ADADAD;
+font-family: 'inter';
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+   } 
 }
 </style>

@@ -22,13 +22,13 @@ Findtrend  let you gathers all of your favorite website into one place.</p>
             </div>
         </div>
         <div class="cardss">
-            <cardComponent url="src/assets/imgss/twitter.png" img="src/assets/imgss/cancel.png" text="Cryptopunk-Search " class="twitter"/>
+            <cardComponent url="src/assets/imgss/twitter.png" img="src/assets/imgss/del.png" text="Cryptopunk-Sear " class="twitter"/>
 
-            <cardComponent url="src/assets/imgss/popular.png" img="src/assets/imgss/cancel.png" text="Popular Design-Search " class="popular"/>
+            <cardComponent url="src/assets/imgss/popular.png" img="src/assets/imgss/cancel.png" text="Popular Design-Se" class="popular"/>
 
             <cardComponent url="src/assets/imgss/facebook.svg" img="src/assets/imgss/cancel.png" text="Product Design " class="facebook"/>
 
-            <cardComponent url="src/assets/imgss/basketball.png" img="src/assets/imgss/cancel.png" text="Elon Musk-Search" class="basketball"/>
+            <cardComponent url="src/assets/imgss/basketball.png" img="src/assets/imgss/cancel.png" text="Elon Musk-Sear" class="basketball"/>
         </div>
         </div>
     </div>
@@ -74,7 +74,8 @@ gap:16px
 .getStarted{
     display: flex;
     justify-content: center;
-    /*background-color: #A8FF35;*/
+    background-color:#A8FF35;
+    color:black 
 }
 .arrow img{
     display:none
@@ -121,13 +122,18 @@ line-height: 150%;
     padding: 16px 32px;
 justify-content: center;
 align-items: center;
-gap: 10px
+gap: 10px;
+max-width: 180px;
+ width:100%;
+ max-height: 57px;
+ height: 100%;
+ color:black;
 }
 .cardss{
     display: flex;
     flex-direction: row;
     gap:0px;
-    background-color: #181818;
+    
 }
 .hero{
     background-color: black;
@@ -136,11 +142,16 @@ gap: 10px
 }
 .twitter{
     transform: rotate(-4deg);
-    background-color: #181818
+    background-color: #181818;
+    max-width:341.226px;
+    width: 100%;
+    max-height: 82px;
+height: 70px;
 }
 .popular{
     transform: rotate(2deg);
-    background-color: #181818
+    background-color: #181818;
+    margin-top: 30px;
 }
 .facebook{
     transform: rotate(-2deg);
@@ -148,7 +159,9 @@ gap: 10px
 }
 .basketball{
     transform: rotate(4deg);
+    margin-top: 30px;
     background-color: #181818;
 }
+
 }
 </style>
