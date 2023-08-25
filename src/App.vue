@@ -46,7 +46,7 @@ import footerComponent from '../footerComponent.vue';
           <DealComponents class="first" h3="Personal" Special="Special First packet for all" h1="$8/month" li1="Up to 5 page each group" li2="Up to 10 group page" li3="5days group page saved"/>
           
         
-          <DealComponents class="second" h3="Regular" Special="Recommended for for Personal Pro" h1="$20/month" li1="Up to 15 page each group" li2="download page up to 20page" li3="Up to 10 group page" li4="15days group page saved"/>
+          <DealComponents class="second" h3="Regular" Special="Recommended for Personal Pro" h1="$20/month" li1="Up to 15 page each group" li2="download page up to 20page" li3="Up to 10 group page" li4="15days group page saved"/>
 
           <DealComponents class="third" h3="Personal" Special="Special First packet for all" h1="$48/month" li1="Unlimited group pages" li2="Unlimited download page" li3="Unlimited page each group" li4="Customize sorting group pages" li5="customize group page name"  li6="30 days group page saved"/>
         </div>
